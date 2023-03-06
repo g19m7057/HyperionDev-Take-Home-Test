@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const main_js_1 = require("../main.js");
+// var assert = require('assert');
+console.assert((0, main_js_1.sayNumber)(11) == "Eleven.", `Expected: Eleven. Got: ${(0, main_js_1.sayNumber)(11)}`);
+console.assert((0, main_js_1.sayNumber)(14) == "Fourteen.", `Expected: Fourteen. Got: ${(0, main_js_1.sayNumber)(14)}`);
+console.assert((0, main_js_1.sayNumber)(15) == "Fifteen.", `Expected: Fifteen.. Got: ${(0, main_js_1.sayNumber)(15)}`);
+console.assert((0, main_js_1.sayNumber)(43) == "Forty three.", `Expected: Forty three. Got: ${(0, main_js_1.sayNumber)(43)}`);
+console.assert((0, main_js_1.sayNumber)(50) == "Fifty.", `Expected: Fifty.. Got: ${(0, main_js_1.sayNumber)(50)}`);
+console.assert((0, main_js_1.sayNumber)(1001) == "One thousand and one.", `Expected: One thousand and one. Got: ${(0, main_js_1.sayNumber)(1001)}`);
+console.assert((0, main_js_1.sayNumber)(20000) == "Twenty thousand.", `Expected: Twenty thousand. Got: ${(0, main_js_1.sayNumber)(20000)}`);
+console.assert((0, main_js_1.sayNumber)(1033286) == "One million thirty three thousand two hundred and eighty six.", `Expected: One million thirty three thousand two hundred and eighty six.. Got: ${(0, main_js_1.sayNumber)(1033286)}`);
+console.assert((0, main_js_1.sayNumber)(12000013) == "Twelve million and thirteen.", `Expected: Twelve million and thirteen. Got: ${(0, main_js_1.sayNumber)(12000013)}`);
+console.assert((0, main_js_1.sayNumber)(90376000010012) == "Ninety trillion, three hundred and seventy six billion, ten thousand and twelve.", `Expected: Ninety trillion, three hundred and seventy six billion, ten thousand and twelve.N. Got: ${(0, main_js_1.sayNumber)(90376000010012)}`);
