@@ -26,7 +26,7 @@ class Solution:
     
 ob1 = Solution()
 print(ob1.groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))
-```python
+```.
 
 The function overall is very good, there were just some indentation errors and forgetting the word in the sorted() function but the class is unnecessary.
 
