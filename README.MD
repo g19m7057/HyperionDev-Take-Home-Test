@@ -12,7 +12,7 @@ in this case it takes a single word in the list given by the letter i in the for
 
 The corrected function would be:
 
-```
+```python
 class Solution:
     def groupAnagrams(self, strs):
         result = {}
@@ -26,7 +26,7 @@ class Solution:
     
 ob1 = Solution()
 print(ob1.groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))
-```.
+```
 
 The function overall is very good, there were just some indentation errors and forgetting the word in the sorted() function but the class is unnecessary.
 
